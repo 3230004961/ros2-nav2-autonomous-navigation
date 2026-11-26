@@ -7,10 +7,7 @@
 - 自定义 Gazebo 室内仿真环境
 - LiDAR 激光雷达与 ROS-Gazebo 通信
 - SLAM Toolbox 二维栅格地图构建
-- AMCL 已知地图定位
 - Nav2 全局路径规划和局部运动控制
-- 静态障碍物绕行
-- C++ NavigateToPose Action 多目标导航
 - 独立的 C++ 激光雷达反应式避障算法
 
 ## 技术栈
@@ -19,7 +16,7 @@
 - ROS 2 Jazzy
 - C++17 / rclcpp / rclcpp_action
 - Gazebo Harmonic
-- Nav2 / SLAM Toolbox / AMCL
+- Nav2 / SLAM Toolbox
 - RViz2
 
 ## 项目结构
@@ -46,12 +43,8 @@
 
 ## 测试结果
 
-在 Gazebo 室内仿真环境中，完成连续三个导航目标的自主执行，观察到机器人绕过静态障碍物并成功抵达目标。
 
-## 说明
-
-独立的反应式避障节点与 Nav2 导航是不同的实验模式。Nav2 使用框架内置的规划与控制算法。
 
 ## 演示视频
 
-https://www.bilibili.com/video/BV1xr1Fz5ESV/?spm_id_from=333.1387.list.card_archive.click&vd_source=4a673deae9daff1aba73d4c16377055e
+https://www.bilibili.com/video/BV1Lf1EzyETr/?vd_source=4a673deae9daff1aba73d4c16377055e
