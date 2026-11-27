@@ -172,7 +172,7 @@ bash ~/robot_avoidance_ws/src/laser_avoidance/tools/run_exploration.sh baseline
 | 总运行时间 | 559.51 秒 |
 | 任务退出码 | 0 |
 
-演示视频：
+演示视频：https://www.bilibili.com/video/BV1Lf1EzyETr/?spm_id_from=333.1387.homepage.video_card.click&vd_source=4a673deae9daff1aba73d4c16377055e
 该数据为一次成功仿真运行记录，不代表所有环境下的性能保证。
 
 ## 八、项目技术特点
